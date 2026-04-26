@@ -35,7 +35,8 @@ function Code({ children, ...props }) {
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />;
 }
 
-function Table({ data }) {
+function Table({ data }: { data?: { headers: string[]; rows: string[][] } }) {
+  if (!data?.headers || !data?.rows) return null;
   let headers = data.headers.map((header, index) => (
     <th key={index}>{header}</th>
   ));
