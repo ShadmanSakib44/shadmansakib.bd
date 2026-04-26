@@ -1,0 +1,20 @@
+---
+title: "Building Secure APIs with Spring Boot and JWT"
+publishedAt: "2025-02-01"
+summary: "Notes on implementing JWT-based authentication and authorization in Spring Boot backend services."
+tags: "Spring Boot, JWT, Backend, Security"
+---
+
+At Synesis IT, we use **Java** and **Spring Boot** to build backend services for large-scale government and enterprise platforms. A core part of that work is secure access control.
+
+## Why JWT?
+
+JWT (JSON Web Tokens) lets us keep APIs stateless while still identifying and authorizing users. After login, the client sends the token with each request; the server validates it without storing session state.
+
+## What we do in practice
+
+- Issue short-lived access tokens and optional refresh tokens.
+- Validate token signature and expiry on each protected request.
+- Map claims to roles and permissions for authorization.
+
+This post is a placeholder — more detailed notes on our Spring Security and JWT setup may follow.
