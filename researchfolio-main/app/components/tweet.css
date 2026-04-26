@@ -54,13 +54,21 @@
 }
 
 .tweet .react-tweet-theme p a {
-  @apply border-b border-gray-300 transition-[border-color] hover:border-gray-600;
+  border-bottom: 1px solid #d1d5db;
+  transition: border-color 0.15s ease;
+}
+.tweet .react-tweet-theme p a:hover {
+  border-bottom-color: #4b5563;
 }
 
 /* Dark theme link styles */
 @media (prefers-color-scheme: dark) {
   .tweet .react-tweet-theme p a {
-    @apply border-gray-500 text-white hover:border-white;
+    border-bottom-color: #6b7280;
+    color: #ffffff;
+  }
+  .tweet .react-tweet-theme p a:hover {
+    border-bottom-color: #ffffff;
   }
 }
 
@@ -70,7 +78,7 @@
 }
 
 .tweet a div {
-  @apply font-medium;
+  font-weight: 500;
 }
 
 .tweet div[class*="mediaWrapper"] {
