@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Software Engineer at <a href='https://synesisit.com.bd/'>Synesis IT PLC</a> · Dhaka, Bangladesh
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: SS_09559.jpg # your profile photo, stored at assets/img/SS_09559.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Dhaka, Bangladesh</p>
+    <p><a href="mailto:shadmansakib20@iut-dhaka.edu">shadmansakib20@iut-dhaka.edu</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +21,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Software Engineer at [Synesis IT PLC](https://synesisit.com.bd/) in Dhaka, Bangladesh, where I build backend systems in Java and Spring Boot for enterprise-scale government information platforms. I hold a B.Sc. in Software Engineering from the [Islamic University of Technology (IUT)](https://www.iutoic-dhaka.edu/), and my day-to-day work — maintaining legacy codebases, refactoring for structural consistency, and securing distributed microservices — sits close to the software evolution problems I care about as a researcher.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests center on **automated software verification and model conformance**, **large language models for requirements engineering**, and **trustworthy, reliable AI**. My undergraduate thesis built an agentic, prompt-driven pipeline that generates structured functional requirements from unstructured app-store reviews, evaluating machine-generated artefacts against human baselines to surface systematic conformance gaps. This work was accepted at [NLP4RE'26 @ REFSQ](https://nlp4re.github.io/2026/), and a related study on LLM reliability in clinical prediction appears in IEEE Xplore.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Feel free to reach out by [email](mailto:shadmansakib20@iut-dhaka.edu), or browse my [CV](/cv/), [publications](/publications/), and [projects](/projects/).

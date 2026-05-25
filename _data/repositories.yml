@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ShadmanSakib44
 
 repo_description_lines_max: 2
 
+# Add your own repositories below in the form "username/repo-name", e.g.:
+# github_repos:
+#   - ShadmanSakib44/your-repo
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
