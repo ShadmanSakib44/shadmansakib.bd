@@ -3,7 +3,7 @@ cv:
   label: Software Engineer
   email: shadmansakib20@iut-dhaka.edu
   phone: "+880 16** *** ***"
-  website: https://sakibshadman.com
+  # website: https://sakibshadman.com
   image: ""
   summary: >-
     Software Engineer specializing in backend development (Java, Spring Boot) for
